@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FC9C45</color>
+    <color name="colorPrimaryDark">#FFAD62</color>
+    <color name="colorAccent">#6A6666</color>
+
+    <color name="MAIN_BACKGROUND">#FFFEFE</color>
+
+    <color name="NAV_WHITE">#FFFFFF</color>
+    <color name="DARK_COLOR">#6A6666</color>
+
+    <color name="BOTTOM_SELECTED">#FB8010</color>
+    <color name="BOTTOM_NOT_SELECTED">#A09898</color>
+
+    <color name="PROFILE_HEADER_TEXT_COLOR">#B3FF84</color>
+    <color name="PROFILE_TEXT_COLOR">#514B4B</color>
+    <color name="PROFILE_MONTH_LEFT_COLOR">#67D126</color>
+    <color name="PROFILE_PROGRESSBAR_COLOR">#67D126</color>
+    <color name="PROFILE_PROGRESSBAR_BACKGROUND_COLOR">#C4C4C4</color>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ZnoLite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share_text">Хочеш підготуватися до ЗНО з англійської мови? Ми допоможемо! Завантажуйте наш додаток і тренеруйтесь у вивченні слів!</string>
+    <string name="url_play_store"><![CDATA[https://play.google.com/store?hl=ru&gl=US]]></string>
+    <string name="title_act_share">Ділися з друзями!</string>
+    <string name="title_activity_tests">TestsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
