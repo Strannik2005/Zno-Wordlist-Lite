@@ -10,16 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/ZnoLite.MyApp">
         <activity
+            android:name=".settings.SettingsActivity"
+            android:exported="false" />
+        <activity
             android:name=".model.ResultQuiz"
             android:exported="false" />
         <activity
-            android:name=".ActivityContentTests"
+            android:name=".Tests.ActivityContentTests"
             android:exported="false" />
         <activity
-            android:name=".TestsActivity"
+            android:name=".Tests.TestsActivity"
             android:exported="false"
-            android:label="@string/title_activity_tests"
-            android:theme="@style/ZnoLite.MyApp.NoActionBar" />
+            android:label="@string/title_activity_tests" />
         <activity
             android:name=".LogoActivity"
             android:exported="true">
@@ -32,6 +34,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+        <activity android:name=".adapters.AllTestAdapter" />
     </application>
 
 </manifest>

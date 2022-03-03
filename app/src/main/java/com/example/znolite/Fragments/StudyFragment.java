@@ -13,7 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.znolite.R;
-import com.example.znolite.TestsActivity;
+import com.example.znolite.Tests.TestsActivity;
 
 
 public class StudyFragment extends Fragment {

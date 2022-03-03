@@ -3,7 +3,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="share_text">Хочеш підготуватися до ЗНО з англійської мови? Ми допоможемо! Завантажуйте наш додаток і тренеруйтесь у вивченні слів!</string>
-    <string name="url_play_store"><![CDATA[https://play.google.com/store?hl=ru&gl=US]]></string>
+    <string name="url_play_store">https://play.google.com/store?hl=ru</string>
     <string name="title_act_share">Ділися з друзями!</string>
     <string name="title_activity_tests">TestsActivity</string>
     <!-- Strings used for fragments for navigation -->

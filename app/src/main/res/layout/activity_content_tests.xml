@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ActivityContentTests">
-
-
+    tools:context=".Tests.ActivityContentTests">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_name_of_test"
@@ -15,95 +12,27 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@color/MAIN_BACKGROUND"
         android:gravity="center"
-        android:isScrollContainer="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:isScrollContainer="false">
 
         <TextView
             android:id="@+id/toolbarTitleNameTest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Test 1"
             android:layout_gravity="center"
-            android:textSize="24dp"
+            android:fontFamily="@font/mon_ex_bold"
+            android:text="Test 1"
             android:textColor="#008080"
-            android:fontFamily="@font/mon_ex_bold"/>
+            android:textSize="24dp" />
     </androidx.appcompat.widget.Toolbar>
 
-
-
-
-    <LinearLayout
+    <FrameLayout
+        android:id="@+id/test_content_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/tv_timer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="00:00"
-            android:layout_gravity="center"/>
-
-        <TextView
-            android:id="@+id/questWord"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="200dp"
-            android:text=""
-            android:textAlignment="center"
-            android:hint="English word"
-            android:textSize="30dp"/>
+        android:layout_height="match_parent"/>
 
 
-        <Button
-            android:id="@+id/answerBt1"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="100dp"
-            android:text=""
-            android:hint="Answer 1"/>
-
-        <Button
-            android:id="@+id/answerBt2"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:text=""
-            android:hint="Answer 2"/>
-
-        <Button
-            android:id="@+id/answerBt3"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:text=""
-            android:hint="Answer 3"/>
-
-        <Button
-            android:id="@+id/answerBt4"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:text=""
-            android:hint="Answer 4"/>
-
-        <Button
-            android:id="@+id/nextBt"
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:backgroundTint="@android:color/holo_blue_dark"
-            android:text="Next" />
 
 
-    </LinearLayout>
+
 
 </LinearLayout>

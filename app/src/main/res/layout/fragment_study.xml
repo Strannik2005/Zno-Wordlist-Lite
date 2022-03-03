@@ -33,36 +33,77 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
+
         <androidx.cardview.widget.CardView
-            android:id="@+id/linearLayoutAllTests"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="48dp"
+            android:id="@+id/linearLayoutNewTest"
+            android:layout_width="180dp"
+            android:layout_height="220dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="48dp"
             android:background="@drawable/back_alltests"
             android:elevation="2dp"
-            app:cardCornerRadius="20dp"
             android:orientation="vertical"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:cardCornerRadius="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/new_test_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+
+                    android:fontFamily="@font/mont_semibold"
+                    android:text="New test"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/linearLayoutAllTests"
+            android:layout_width="180dp"
+            android:layout_height="220dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/back_alltests"
+            android:elevation="2dp"
+            android:orientation="vertical"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:src="@drawable/img_alltests" />
 
                 <TextView
-                    android:layout_marginBottom="8dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/mont_semibold"
+                    android:layout_marginTop="20dp"
                     android:text="All tests"
                     android:textColor="@android:color/black"
                     android:textSize="18dp" />
@@ -108,7 +149,7 @@
                 android:layout_height="19dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="23dp"
-                android:progress="50"
+                android:progress="10"
                 android:progressDrawable="@drawable/shape_progressbar" />
 
 

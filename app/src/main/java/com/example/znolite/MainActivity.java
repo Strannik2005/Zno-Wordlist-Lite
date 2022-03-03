@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.znolite.Fragments.ProfileFragment;
 import com.example.znolite.Fragments.StudyFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -36,15 +37,8 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.nav_payment:
                         break;
-                    case R.id.nav_course_info:
-                        break;
-                    case R.id.nav_share:
-                        Toast.makeText(MainActivity.this, "Придбати весь курс", Toast.LENGTH_SHORT).show();
-                        Intent shareIntent = new Intent(Intent.ACTION_SEND);
-                        shareIntent.setType("text/plain");
-                        shareIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.share_text));
-                        shareIntent.putExtra(Intent.EXTRA_TEXT, getString(R.string.url_play_store));
-                        startActivity(Intent.createChooser(shareIntent, getString(R.string.title_act_share)));
+                    case R.id.nav_profile:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.main_container, new ProfileFragment()).commit();
                         break;
 
                 }
