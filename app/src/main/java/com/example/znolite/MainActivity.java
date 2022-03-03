@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initBottNavBar();
-        getSupportFragmentManager().beginTransaction().replace(R.id.main_container, new StudyFragment()).commit();
+        init();
 
     }
 
@@ -53,6 +53,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+
+    private void init(){
+        getSupportFragmentManager().beginTransaction().replace(R.id.main_container, new StudyFragment()).commit();
     }
 
 

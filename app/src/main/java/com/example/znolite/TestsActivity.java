@@ -52,21 +52,7 @@ public class TestsActivity extends AppCompatActivity {
     }
 
     private void fillArray(){
-        cards.add(new CardTestItem(this,"Test 1"));
-        cards.add(new CardTestItem(this, "Test 2"));
-        cards.add(new CardTestItem(this, "Test 3"));
-        cards.add(new CardTestItem(this, "Test 4"));
-        cards.add(new CardTestItem(this, "Test 5"));
-        cards.add(new CardTestItem(this, "Test 6"));
-        cards.add(new CardTestItem(this, "Test 7"));
-        cards.add(new CardTestItem(this, "Test 8"));
-        cards.add(new CardTestItem(this, "Test 9"));
-        cards.add(new CardTestItem(this, "Test 10"));
-        cards.add(new CardTestItem(this, "Test 11"));
-        cards.add(new CardTestItem(this, "Test 12"));
-        cards.add(new CardTestItem(this, "Test 13"));
-        cards.add(new CardTestItem(this, "Test 14"));
-        cards.add(new CardTestItem(this, "Test 15"));
-        cards.add(new CardTestItem(this, "Test 16"));
+        cards.add(new CardTestItem(this,"Family"));
+        cards.add(new CardTestItem(this, "Work"));
     }
 }

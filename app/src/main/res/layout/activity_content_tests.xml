@@ -34,12 +34,76 @@
 
 
 
-    <FrameLayout
-        android:id="@+id/fr_content_of_test"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/questWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:text=""
+            android:textAlignment="center"
+            android:hint="English word"
+            android:textSize="30dp"/>
+
+
+        <Button
+            android:id="@+id/answerBt1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:text=""
+            android:hint="Answer 1"/>
+
+        <Button
+            android:id="@+id/answerBt2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:hint="Answer 2"/>
+
+        <Button
+            android:id="@+id/answerBt3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:hint="Answer 3"/>
+
+        <Button
+            android:id="@+id/answerBt4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:hint="Answer 4"/>
+
+        <Button
+            android:id="@+id/nextBt"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="Next" />
+
+
+    </LinearLayout>
 
 </LinearLayout>

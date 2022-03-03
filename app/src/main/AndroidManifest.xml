@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/ZnoLite.MyApp">
         <activity
+            android:name=".model.ResultQuiz"
+            android:exported="false" />
+        <activity
             android:name=".ActivityContentTests"
             android:exported="false" />
         <activity
