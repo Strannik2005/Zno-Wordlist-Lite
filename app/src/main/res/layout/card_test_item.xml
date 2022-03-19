@@ -48,10 +48,10 @@
 
         <TextView
             android:id="@+id/indificator_of_correct_answers"
-            android:layout_width="wrap_content"
+            android:layout_width="46dp"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montm"
-            android:text="0%"
+            android:text="100%"
             android:layout_marginEnd="58dp"
             android:textColor="#008080"
             android:textSize="18dp"
