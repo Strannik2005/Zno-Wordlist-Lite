@@ -3,16 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.35188968335035753" />
         <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable-v24/shape_progressbar.xml" value="0.35885416666666664" />
         <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/back_check.xml" value="0.35885416666666664" />
         <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/back_stand.xml" value="0.35885416666666664" />
         <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/back_standart.xml" value="0.35885416666666664" />
         <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/circle_for_image.xml" value="0.35885416666666664" />
+        <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/ic_abautus.xml" value="0.35188968335035753" />
         <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/ic_back_alltest.xml" value="0.35885416666666664" />
         <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/ic_back_card_test.xml" value="0.35885416666666664" />
+        <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/ic_chat.xml" value="0.35188968335035753" />
         <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/ic_course_info.xml" value="0.35885416666666664" />
         <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/ic_ellipse_11.xml" value="0.35885416666666664" />
+        <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/ic_indificator_new.xml" value="0.35188968335035753" />
+        <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/ic_launcher_background.xml" value="0.35188968335035753" />
+        <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/ic_payment_credit.xml" value="0.35188968335035753" />
         <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/ic_rate.xml" value="0.35885416666666664" />
+        <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/ic_settings.xml" value="0.35188968335035753" />
         <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/ic_share.xml" value="0.35885416666666664" />
         <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/ic_share2.xml" value="0.3541666666666667" />
         <entry key="..\:/Users/user/ZnoLite/app/src/main/res/drawable/ic_standart_back.xml" value="0.35885416666666664" />
